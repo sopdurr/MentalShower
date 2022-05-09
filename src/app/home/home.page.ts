@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { AngularFireDatabase, AngularFireList } from '@angular/fire/compat/database';
+import { Observable } from 'rxjs';
+
 
 @Component({
   selector: 'app-home',
@@ -7,6 +10,9 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
-
+   constructor( ) {
+   
+      
+       
+   }
 }
